@@ -1,0 +1,120 @@
+.header_section{
+    background: #ddd;
+}
+.header_section .logo a{
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+}
+.header_section .menu{
+
+}
+.header_section .menu ul{
+    text-align: right;
+    margin: 0;
+}
+.header_section .menu ul li{
+    display: inline-block;
+    padding: 10px 20px;   
+}
+.header_section .menu ul li a{
+    display: block;
+    color: rgb(8, 3, 3);
+    text-transform: capitalize;
+    text-decoration: none;
+    font-size: 20px;
+}
+.header_section .menu ul li a:hover {}
+img{
+    max-width: 100%;
+}
+
+
+.banner_section{
+    background: url(./img/20200221_201646.jpg);
+    padding: 400px 0;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.banner_section::before{
+    content: '';
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.226);
+    position: absolute;
+    z-index: -1;
+}
+.banner_section h1{
+    text-align: center;
+    color: white;
+    font-size: 100px;
+}
+/* about_section */
+.about_section{
+    padding: 100px 0;
+}
+.about_section .left{
+    padding-right: 40px;
+}
+.about_section .left .image_inner{}
+.about_section .left .image_inner img{}
+.about_section .left .personal_info{}
+.about_section .left .personal_info li{
+    list-style: none;
+    font-size: 20px;
+}
+.about_section .left .bottom{
+    padding-top: 15px;
+    text-align: justify;
+}
+.about_section .right{
+    padding-left: 40px;
+}
+.about_section .right h2{
+    text-transform: capitalize;
+}
+.about_section .right p:last-child{
+    font-size: 20px;
+}
+/* contact_section */
+.contact_section{
+    padding: 50px 0;
+}
+.contact_section .right {
+ padding-left: 30px;   
+}
+.contact_section .right textarea{
+    height: 200px;
+}
+
+/* footer section */
+.footer_section{
+    background: blue;
+    padding: 20px;
+}
+.footer_section p{
+    margin: 0;
+    text-align: center;
+}
+.footer_section p a{
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    transition: .6s;
+    color: white;
+}
+.footer_section p a:hover{
+    color: rgba(229, 255, 0, 0.411);
+}
+
+
+
+
+
+
+
+
